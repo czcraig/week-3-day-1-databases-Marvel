@@ -17,7 +17,7 @@ INSERT INTO people (name) VALUES ('Lee	Burgess');
 INSERT INTO people (name) VALUES ('Stuart	Charters');
 INSERT INTO people (name) VALUES ('Wil	Cornish');
 INSERT INTO people (name) VALUES ('Gregor Cox');
-INSERT INTO people (name) VALUES ('Chris Craig');
+INSERT INTO people (name) VALUES ('Chris	Craig');
 INSERT INTO people (name) VALUES ('Gabriel	González Villalba');
 INSERT INTO people (name) VALUES ('James	Henderson');
 INSERT INTO people (name) VALUES ('Edward	Kinley');
@@ -32,6 +32,7 @@ INSERT INTO people (name) VALUES ('Benjamin	Robinson');
 INSERT INTO people (name) VALUES ('Stephen	Rooney');
 INSERT INTO people (name) VALUES ('Can	Toraman');
 INSERT INTO people (name) VALUES ('Daniel	Warren');
+INSERT INTO people (name) VALUES ('Zsolt Podoba-Szalai');
 
 INSERT INTO movies (title, year, show_time) VALUES ('Iron Man', 2008, '23:55');
 INSERT INTO movies (title, year, show_time) VALUES ('The Incredible Hulk', 2008, '12:10');
@@ -58,8 +59,9 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 
 
 UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
-SELECT name FROM people WHERE name = 'Chris Craig';
+SELECT name FROM people WHERE name = 'Chris	Craig';
 DELETE FROM movies WHERE title = 'Batman Begins';
+
 
 
 
