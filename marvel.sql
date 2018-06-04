@@ -16,8 +16,8 @@ INSERT INTO people (name) VALUES ('James	Amos');
 INSERT INTO people (name) VALUES ('Lee	Burgess');
 INSERT INTO people (name) VALUES ('Stuart	Charters');
 INSERT INTO people (name) VALUES ('Wil	Cornish');
-INSERT INTO people (name) VALUES ('Gregor	Cox');
-INSERT INTO people (name) VALUES ('Chris	Craig');
+INSERT INTO people (name) VALUES ('Gregor Cox');
+INSERT INTO people (name) VALUES ('Chris Craig');
 INSERT INTO people (name) VALUES ('Gabriel	González Villalba');
 INSERT INTO people (name) VALUES ('James	Henderson');
 INSERT INTO people (name) VALUES ('Edward	Kinley');
@@ -58,7 +58,7 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '15:0
 
 
 UPDATE people SET name = 'Jesus Perez' WHERE id = 17;
-
+SELECT name FROM people WHERE name = 'Chris Craig';
 
 
 
