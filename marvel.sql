@@ -65,9 +65,11 @@ SELECT name FROM people WHERE name = 'Chris	Craig';
 DELETE FROM movies WHERE title = 'Batman Begins';
 DELETE FROM people WHERE name = 'Emily Milne';
 UPDATE movies SET show_time = '21:05' WHERE title = 'Guardians of the Galaxy';
+DELETE FROM people WHERE name IN ('Lee	Burgess', 'Edward	Kinley');
+--DELETE FROM people WHERE id = (7, 6);
 
 
 
 
 SELECT * FROM movies;
-SELECT name FROM people;
+SELECT * FROM people;
