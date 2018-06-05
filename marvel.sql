@@ -72,4 +72,4 @@ DELETE FROM people WHERE name IN ('Lee	Burgess', 'Edward	Kinley');
 
 
 SELECT * FROM movies;
-SELECT * FROM people;
+SELECT name FROM people;
